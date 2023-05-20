@@ -17,11 +17,7 @@ const generatePhrase = (init, verb, final) =>{
     return finalPhrase
 }
 
-
-// let random = randomWord(verb)
-// console.log(random)
 let inspiringQuote = generatePhrase(initial, verb, final);
-// console.log(inspiringQuote);
 
 document.addEventListener('DOMContentLoaded', function(){
     let inspireButton = document.getElementById('mainButton');
